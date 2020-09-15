@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A156F0392510FC8B007C2B4C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A156F0382510FC8B007C2B4C /* AppDelegate.m */; };
+		A156F03B2510FC8C007C2B4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A156F03A2510FC8C007C2B4C /* Assets.xcassets */; };
+		A156F03E2510FC8C007C2B4C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A156F03C2510FC8C007C2B4C /* MainMenu.xib */; };
+		A156F0412510FC8C007C2B4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A156F0402510FC8C007C2B4C /* main.m */; };
+		A156F0492510FCCA007C2B4C /* scapix.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = A156F0482510FCCA007C2B4C /* scapix.xcconfig */; };
+		A156F04C2510FDDE007C2B4C /* libcpplib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A156F04B2510FDDE007C2B4C /* libcpplib.a */; };
+		A156F04E2510FDE9007C2B4C /* libscapix.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A156F04D2510FDE9007C2B4C /* libscapix.a */; };
+		A156F0502510FE08007C2B4C /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A156F04F2510FDF7007C2B4C /* libc++.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A156F0342510FC8B007C2B4C /* objcapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = objcapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A156F0372510FC8B007C2B4C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A156F0382510FC8B007C2B4C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A156F03A2510FC8C007C2B4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A156F03D2510FC8C007C2B4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A156F03F2510FC8C007C2B4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A156F0402510FC8C007C2B4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A156F0422510FC8C007C2B4C /* objcapp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = objcapp.entitlements; sourceTree = "<group>"; };
+		A156F0482510FCCA007C2B4C /* scapix.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = scapix.xcconfig; path = ../cpplib/build/scapix.xcconfig; sourceTree = "<group>"; };
+		A156F04B2510FDDE007C2B4C /* libcpplib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libcpplib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A156F04D2510FDE9007C2B4C /* libscapix.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libscapix.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A156F04F2510FDF7007C2B4C /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A156F0312510FC8B007C2B4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A156F0502510FE08007C2B4C /* libc++.tbd in Frameworks */,
+				A156F04C2510FDDE007C2B4C /* libcpplib.a in Frameworks */,
+				A156F04E2510FDE9007C2B4C /* libscapix.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A156F02B2510FC8B007C2B4C = {
+			isa = PBXGroup;
+			children = (
+				A156F0482510FCCA007C2B4C /* scapix.xcconfig */,
+				A156F0362510FC8B007C2B4C /* objcapp */,
+				A156F0352510FC8B007C2B4C /* Products */,
+				A156F04A2510FDDE007C2B4C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A156F0352510FC8B007C2B4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A156F0342510FC8B007C2B4C /* objcapp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A156F0362510FC8B007C2B4C /* objcapp */ = {
+			isa = PBXGroup;
+			children = (
+				A156F0372510FC8B007C2B4C /* AppDelegate.h */,
+				A156F0382510FC8B007C2B4C /* AppDelegate.m */,
+				A156F03A2510FC8C007C2B4C /* Assets.xcassets */,
+				A156F03C2510FC8C007C2B4C /* MainMenu.xib */,
+				A156F03F2510FC8C007C2B4C /* Info.plist */,
+				A156F0402510FC8C007C2B4C /* main.m */,
+				A156F0422510FC8C007C2B4C /* objcapp.entitlements */,
+			);
+			path = objcapp;
+			sourceTree = "<group>";
+		};
+		A156F04A2510FDDE007C2B4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A156F04F2510FDF7007C2B4C /* libc++.tbd */,
+				A156F04D2510FDE9007C2B4C /* libscapix.a */,
+				A156F04B2510FDDE007C2B4C /* libcpplib.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A156F0332510FC8B007C2B4C /* objcapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A156F0452510FC8C007C2B4C /* Build configuration list for PBXNativeTarget "objcapp" */;
+			buildPhases = (
+				A156F0302510FC8B007C2B4C /* Sources */,
+				A156F0312510FC8B007C2B4C /* Frameworks */,
+				A156F0322510FC8B007C2B4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = objcapp;
+			productName = objcapp;
+			productReference = A156F0342510FC8B007C2B4C /* objcapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A156F02C2510FC8B007C2B4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = Example;
+				TargetAttributes = {
+					A156F0332510FC8B007C2B4C = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = A156F02F2510FC8B007C2B4C /* Build configuration list for PBXProject "objcapp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A156F02B2510FC8B007C2B4C;
+			productRefGroup = A156F0352510FC8B007C2B4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A156F0332510FC8B007C2B4C /* objcapp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A156F0322510FC8B007C2B4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A156F03B2510FC8C007C2B4C /* Assets.xcassets in Resources */,
+				A156F03E2510FC8C007C2B4C /* MainMenu.xib in Resources */,
+				A156F0492510FCCA007C2B4C /* scapix.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A156F0302510FC8B007C2B4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A156F0412510FC8C007C2B4C /* main.m in Sources */,
+				A156F0392510FC8B007C2B4C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A156F03C2510FC8C007C2B4C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A156F03D2510FC8C007C2B4C /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A156F0432510FC8C007C2B4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A156F0482510FCCA007C2B4C /* scapix.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/boris/.cmodule/scapix/1.0.20/source,
+					../cpplib/generated/bridge/objc,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A156F0442510FC8C007C2B4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A156F0482510FCCA007C2B4C /* scapix.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/boris/.cmodule/scapix/1.0.20/source,
+					../cpplib/generated/bridge/objc,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A156F0462510FC8C007C2B4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = objcapp/objcapp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = objcapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.objcapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A156F0472510FC8C007C2B4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = objcapp/objcapp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = objcapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.objcapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A156F02F2510FC8B007C2B4C /* Build configuration list for PBXProject "objcapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A156F0432510FC8C007C2B4C /* Debug */,
+				A156F0442510FC8C007C2B4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A156F0452510FC8C007C2B4C /* Build configuration list for PBXNativeTarget "objcapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A156F0462510FC8C007C2B4C /* Debug */,
+				A156F0472510FC8C007C2B4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A156F02C2510FC8B007C2B4C /* Project object */;
+}
