@@ -18,7 +18,9 @@ Open in XCode: `scapix_example.xcworkspace`
 - Automatically generated from CMake:
   - XCode project `cpplib` (C++)
 
-### Steps to integrate generated `cpplib` project to `scapix_example` workspace and `objcapp` project
+### XCode Integration
+
+Steps used to integrate generated `cpplib` project to `scapix_example` workspace and `objcapp` project:
 
 - Add Files to `scapix_example`: add `cpplib/build/cpplib.xcodeproj`
 - Add Files to `objcapp`: add `cpplib/build/scapix.xcconfig`
