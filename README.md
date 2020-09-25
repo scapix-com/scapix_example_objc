@@ -20,10 +20,13 @@ Open in XCode: `scapix_example.xcworkspace`
 
 ### XCode Integration
 
-Steps used to integrate generated `cpplib` project to `scapix_example` workspace and `objcapp` project:
+Steps to integrate with your own project:
+
+- Add generated XCode (C++) project to your XCode workspace.
+- Add generated `scapix_XXX.xcconfig` file to your XCode (ObjC/Swift) project.
+
+For example, these steps were used to integrate generated `cpplib` project to `scapix_example` workspace and `objcapp` project:
 
 - Add Files to `scapix_example`: add `cpplib/build/cpplib.xcodeproj`
-- Add Files to `objcapp`: add `cpplib/build/scapix.xcconfig`
-- Project/Info/Configurations/Based on Configuration File: select `scapix` for each configuration
-- Project/Build Settings/Header Search Paths: add `$(inherited)`, `../cpplib/generated/bridge/objc`
-- Targets/Build Phases/Link Binary with Libraries: add `libcpplib.a`, `libscapix.a`, `libc++.tbd`
+- Add Files to `objcapp`: add `cpplib/build/scapix_cpplib.xcconfig`
+- `objcapp` Project/Info/Configurations/Based on Configuration File: select `scapix_cpplib`

@@ -11,13 +11,10 @@
 		A156F03B2510FC8C007C2B4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A156F03A2510FC8C007C2B4C /* Assets.xcassets */; };
 		A156F03E2510FC8C007C2B4C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A156F03C2510FC8C007C2B4C /* MainMenu.xib */; };
 		A156F0412510FC8C007C2B4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A156F0402510FC8C007C2B4C /* main.m */; };
-		A156F0492510FCCA007C2B4C /* scapix.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = A156F0482510FCCA007C2B4C /* scapix.xcconfig */; };
-		A156F04C2510FDDE007C2B4C /* libcpplib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A156F04B2510FDDE007C2B4C /* libcpplib.a */; };
-		A156F04E2510FDE9007C2B4C /* libscapix.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A156F04D2510FDE9007C2B4C /* libscapix.a */; };
-		A156F0502510FE08007C2B4C /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A156F04F2510FDF7007C2B4C /* libc++.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A12F0258251EA64B00F5F054 /* scapix_cpplib.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = scapix_cpplib.xcconfig; path = ../cpplib/build/scapix_cpplib.xcconfig; sourceTree = "<group>"; };
 		A156F0342510FC8B007C2B4C /* objcapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = objcapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A156F0372510FC8B007C2B4C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A156F0382510FC8B007C2B4C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,10 +23,6 @@
 		A156F03F2510FC8C007C2B4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A156F0402510FC8C007C2B4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A156F0422510FC8C007C2B4C /* objcapp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = objcapp.entitlements; sourceTree = "<group>"; };
-		A156F0482510FCCA007C2B4C /* scapix.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = scapix.xcconfig; path = ../cpplib/build/scapix.xcconfig; sourceTree = "<group>"; };
-		A156F04B2510FDDE007C2B4C /* libcpplib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libcpplib.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		A156F04D2510FDE9007C2B4C /* libscapix.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libscapix.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		A156F04F2510FDF7007C2B4C /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,9 +30,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A156F0502510FE08007C2B4C /* libc++.tbd in Frameworks */,
-				A156F04C2510FDDE007C2B4C /* libcpplib.a in Frameworks */,
-				A156F04E2510FDE9007C2B4C /* libscapix.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,10 +39,9 @@
 		A156F02B2510FC8B007C2B4C = {
 			isa = PBXGroup;
 			children = (
-				A156F0482510FCCA007C2B4C /* scapix.xcconfig */,
+				A12F0258251EA64B00F5F054 /* scapix_cpplib.xcconfig */,
 				A156F0362510FC8B007C2B4C /* objcapp */,
 				A156F0352510FC8B007C2B4C /* Products */,
-				A156F04A2510FDDE007C2B4C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,16 +65,6 @@
 				A156F0422510FC8C007C2B4C /* objcapp.entitlements */,
 			);
 			path = objcapp;
-			sourceTree = "<group>";
-		};
-		A156F04A2510FDDE007C2B4C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A156F04F2510FDF7007C2B4C /* libc++.tbd */,
-				A156F04D2510FDE9007C2B4C /* libscapix.a */,
-				A156F04B2510FDDE007C2B4C /* libcpplib.a */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -114,7 +93,7 @@
 		A156F02C2510FC8B007C2B4C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1170;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = Example;
 				TargetAttributes = {
 					A156F0332510FC8B007C2B4C = {
@@ -147,7 +126,6 @@
 			files = (
 				A156F03B2510FC8C007C2B4C /* Assets.xcassets in Resources */,
 				A156F03E2510FC8C007C2B4C /* MainMenu.xib in Resources */,
-				A156F0492510FCCA007C2B4C /* scapix.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,7 +157,7 @@
 /* Begin XCBuildConfiguration section */
 		A156F0432510FC8C007C2B4C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A156F0482510FCCA007C2B4C /* scapix.xcconfig */;
+			baseConfigurationReference = A12F0258251EA64B00F5F054 /* scapix_cpplib.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -204,6 +182,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -228,12 +207,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					/Users/boris/.cmodule/scapix/1.0.20/source,
-					../cpplib/generated/bridge/objc,
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -243,7 +216,7 @@
 		};
 		A156F0442510FC8C007C2B4C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A156F0482510FCCA007C2B4C /* scapix.xcconfig */;
+			baseConfigurationReference = A12F0258251EA64B00F5F054 /* scapix_cpplib.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -268,6 +241,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -286,12 +260,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					/Users/boris/.cmodule/scapix/1.0.20/source,
-					../cpplib/generated/bridge/objc,
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -303,6 +271,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = objcapp/objcapp.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = objcapp/Info.plist;
@@ -320,6 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = objcapp/objcapp.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = objcapp/Info.plist;

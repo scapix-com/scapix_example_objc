@@ -14,8 +14,9 @@
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-	// Insert code here to initialize your application
-	Contact* c = [Contact new];
+	// Call C++ code through Scapix bridge:
+	Contact* c = [Contact getInstance];
+	NSArray<NSNumber*>* __unused a = [c int8Vec];
 }
 
 
