@@ -15,8 +15,9 @@ Open in XCode: `scapix_example.xcworkspace`
 - Manually created:
   - XCode workspace `scapix_example`
   - XCode project `objcapp` (ObjC/Swift)
-- Automatically generated from CMake:
+- Generated from CMake:
   - XCode project `cpplib` (C++)
+  - XCode config file `scapix_cpplib.xcconfig`
 
 ### XCode Integration
 
