@@ -5,8 +5,8 @@ project(cpplib)
 include(FetchContent)
 FetchContent_Declare(
   cmodule
-  URL "https://github.com/scapix-com/cmodule/archive/refs/tags/v2.0.2.tar.gz"
-  URL_HASH SHA256=9655d2ecfcd70a78093ae03275479d5e24a9c7e967476a290c34c1089a3313b5
+  URL https://github.com/scapix-com/cmodule/archive/refs/tags/v2.2.0.tar.gz
+  URL_HASH SHA256=b4e11cd566d340f0fbed62de2c3372498a7b508d76f7c3915a57508da3b79944
 )
 FetchContent_MakeAvailable(cmodule)
 
